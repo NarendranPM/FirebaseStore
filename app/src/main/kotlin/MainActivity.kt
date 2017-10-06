@@ -112,8 +112,6 @@ class MainActivity : AppCompatActivity() {
 
     }
 
-    fun String.lengthIsEven(): Boolean = length % 2 == 0
-
     companion object {
 
         private val TAG = MainActivity::class.java.getName()
